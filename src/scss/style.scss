@@ -3,6 +3,7 @@ $overley:rgba(0,0,0,0.5);
 
 
 .navbar{
+    
     .nav-item{
         padding-left: 1cm ;
     
@@ -65,8 +66,51 @@ $overley:rgba(0,0,0,0.5);
               #home-video .dark-overlay .fa {
                 font-size: 50px;
                 color: #ff0000; }
+              
 
+#home-video{
+  #gallery{
+    max-width: 50px;
+    max-height: 30px;
+  }
+}
 
+#copyright{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#about{
+  background:url("../img/image2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 250px;
+
+}
+#service-top{
+  background:url("../img/image3.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 250px;
+}
+
+#contact{
+  background:url("../img/image4.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 250px;
+}
+
+#activity{
+  .fa{
+    font-size: 50px;
+  }
+}
 
 
 
